@@ -21,6 +21,7 @@ public class ScopeLocatorComplexWebtable {
 	             
 	           row.locator(":scope", new Locator.LocatorOptions().setHasText("Ashton Cox")).
 	           locator(".select-checkbox").click();
+	           
         row.locator(":scope").allInnerTexts().forEach(e->System.out.println(e));
 	}
 
