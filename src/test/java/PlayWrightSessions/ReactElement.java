@@ -21,7 +21,8 @@ public class ReactElement {
 		      Page page = context.newPage();
 		      page.navigate("https://www.netflix.com/ca/");
 		     Locator email = page.locator("_react=p[name='email'] >> input").first();
-		     email.click();
+		      
+		    // email.click();
 		     email.fill("Prajapatirajat94@gmail.com");
 		     Locator footer = page.locator("_react=UIMarkup[data-uia ='data-uia-footer-label']");
 		     List<String>footerlist = footer.allInnerTexts();

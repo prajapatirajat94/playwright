@@ -45,4 +45,7 @@ package PlayWrightSessions;
 	      // Click #loginFormHtml div [aria-label="Close"]
 	      page.click("#loginFormHtml div [aria-label=\"Close\"]");
 	      System.out.println("*-----------------Program end-----------------*");
+	    } catch(Exception e) {
+	    	
 	    }}}
+	
